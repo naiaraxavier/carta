@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  transition: all 0.2s linear;
+}
+
+*::selection {
+  background: #50543a;
+  color: #fff;
+}
+
+body {
+  align-items: center;
+  background-color: #dcd6c79f;
+  display: flex;
+  flex-direction: column;
+}
+
+header h2 {
+  color: #50543a;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+main {
+  background-image: url("./papel.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 3px 3px 3px #a7a7a7;
+  margin: 0.5rem;
+  padding: 5rem;
+  width: 50%;
+}
+
+p {
+  font-family: "The Girl Next Door", cursive;
+  text-align: justify;
+  text-indent: 2em;
+}
+
+#date {
+  margin-bottom: 2rem;
+  text-align: right;
+}
+
+#signature {
+  text-align: right;
+}
+
+#greet {
+  margin-right: 6rem;
+  text-align: right;
+}
+
+.greet {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+footer {
+  margin: 1em;
+}
+
+footer a {
+  color: #50543a;
+}
+
+footer a:hover {
+  color: #808274;
+  border-bottom: 1px solid #50543a;
+}
